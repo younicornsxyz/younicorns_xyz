@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css'
 import bootstrap from 'bootstrap/dist/css/bootstrap.css'
 import hero from '../public/assets/img/unicorn-hero.png'
 import headsLeft from '../public/assets/img/heads-left.png'
-import social from '../public/assets/img/social.png'
 
 export default function Home() {
   return (
@@ -26,13 +25,13 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="YOUnicorns - A Unicorn NFT Project" />
         <meta property="og:description" content="YOUnicorns - We're all unicorns, including you" />
-        <meta property="og:image" content={social} />
+        <meta property="og:image" content="assets/img/social.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="younicorns.xyz" />
         <meta property="twitter:url" content="https://www.younicorns.xyz/" />
         <meta name="twitter:title" content="YOUnicorns - A Unicorn NFT Project" />
         <meta name="twitter:description" content="YOUnicorns - We're all unicorns, including you" />
-        <meta name="twitter:image" content={social} />
+        <meta name="twitter:image" content="assets/img/social.png" />
       </Head>
 
       <main className={styles.main}>
