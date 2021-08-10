@@ -111,13 +111,13 @@ export default function Home() {
               </svg>
             </a>
             <div className="link-list">
-              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://twitter.com/younicorns_nfts" rel="nofollow noreferrer" target="_blank" rel="noopener noreferrer">
+              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://twitter.com/younicorns_nfts" target="_blank" rel="noopener noreferrer">
                 <span className="d-flex align-items-center">
                   <i className="bi-twitter me-2"></i>
                   <span className="small">Twitter</span>
                 </span>
               </a>
-              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://discord.gg/d3hYvT3VpV" rel="nofollow noreferrer" target="_blank" rel="noopener noreferrer">
+              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://discord.gg/d3hYvT3VpV" target="_blank" rel="noopener noreferrer">
                 <span className="d-flex align-items-center">
                   <i className="bi-discord me-2"></i>
                   <span className="small">Discord</span>
