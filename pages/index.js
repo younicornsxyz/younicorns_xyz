@@ -99,11 +99,11 @@ export default function Home() {
             <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
               <div className="col-12 col-lg-5">
                 <h2 className="display-4 lh-1 mb-4">Be a unicorn in a field full of horses</h2>
-                <p className="lead fw-normal text-muted mb-5 mb-lg-2">YOUnicorns is an NFT project that tries to thank the crypto community for being involved in the space this early, supporting it to eventually reach the masses and change the world for good.</p>
-                <p className="lead fw-normal text-muted mb-5 mb-lg-2">This is not an easy job to do, and it is becoming clearer with government bodies banning the use of cryptocurrencies.</p>
-                <p className="lead fw-normal text-muted mb-5 mb-lg-2">It takes strength, courage, and much more to stay around and support this sector, like unicorns. This is why we think you are a unicorn, YOUnicorn.</p>
-                <p className="lead fw-normal text-muted mb-5 mb-lg-2">And this project makes it a fact by holding an YOUnicorn NFT on a blockchain to prove that.</p>
-                <p className="lead fw-normal text-muted mb-5 mb-lg-2">Years from now, you can show that you were one of the few people in the world who cared and worked for the betterment of this world.</p>
+                <p className="lead fw-normal text-muted mb-4">YOUnicorns is an NFT project that tries to thank the crypto community for being involved in the space this early, supporting it to eventually reach the masses and change the world for good.</p>
+                <p className="lead fw-normal text-muted mb-4">This is not an easy job to do, and it is becoming clearer with government bodies banning the use of cryptocurrencies.</p>
+                <p className="lead fw-normal text-muted mb-4">It takes strength, courage, and much more to stay around and support this sector, like unicorns. This is why we think you are a unicorn, YOUnicorn.</p>
+                <p className="lead fw-normal text-muted mb-4">And this project makes it a fact by holding an YOUnicorn NFT on a blockchain to prove that.</p>
+                <p className="lead fw-normal text-muted mb-4">Years from now, you can show that you were one of the few people in the world who cared and worked for the betterment of this world.</p>
               </div>
               <div className="col-sm-8 col-md-6">
                 <div className="px-5 px-sm-0"><Image className="Image-fluid" src={hero} alt="We are all unicorns, including you." layout="responsive" /></div>
@@ -120,7 +120,7 @@ export default function Home() {
         <section id="features">
           <div className="container px-5">
             <div className="row gx-5 align-items-center">
-              <div className="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+              <div className="col-lg-8 order-lg-1 mb-5 mb-lg-0 features-div">
                 <div className="container-fluid px-5">
                   <div className="row gx-5">
                     <div className="col-md-6 mb-5">
