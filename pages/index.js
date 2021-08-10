@@ -164,7 +164,7 @@ export default function Home() {
             </div>
           </div>
         </aside>
-        <section section section className="bg-light">
+        <section className="bg-light">
           <div className="container px-5">
             <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
               <div className="col-12 col-lg-5">
@@ -181,13 +181,13 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section section section className="bg-gradient-secondary-to-primary" id="download">
+        <section className="bg-gradient-secondary-to-primary" id="download">
           <div className="container px-5 sale-details">
             <h2 className="text-center text-white font-alt mb-0">2200 YOUnicorns</h2><h2 className="text-center text-white font-alt mb-0">0.05 ETH</h2>
             <h2 className="text-center text-white font-alt mb-0">20 MAX BUYS AT A TIME</h2>
           </div>
         </section>
-        <section section section id="features">
+        <section id="features">
           <div className="container px-5">
             <div className="row gx-5 align-items-center">
               <div className="col-lg-8 order-lg-1 mb-5 mb-lg-0">
@@ -248,7 +248,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section section section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/img/banner.png);" }}>
+        <section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/img/banner.png);" }}>
           <div className="cta-content">
             <div className="container px-5">
               <h6 className="display-6 lh-1 mb-4" id="whitelist">
@@ -259,7 +259,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section section section className="bg-gradient-primary-to-secondary" id="download">
+        <section className="bg-gradient-primary-to-secondary" id="download">
           <div className="container px-5">
             <h2 className="text-center text-white font-alt mb-0">Sale starts very soon. Stay tuned.</h2>
           </div>
@@ -274,13 +274,13 @@ export default function Home() {
             </p>
           </div>
           <div className="link-list">
-            <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://twitter.com/younicorns_nfts" rel="nofollow noreferrer" target="blank">
+            <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://twitter.com/younicorns_nfts" rel="nofollow" rel="noreferrer" target="blank">
               <span className="d-flex align-items-center">
                 <i className="bi-twitter me-2"></i>
                 <span className="small">Twitter</span>
               </span>
             </a>
-            <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://discord.gg/d3hYvT3VpV" rel="nofollow noreferrer" target="blank">
+            <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://discord.gg/d3hYvT3VpV" rel="nofollow" rel="noreferrer" target="blank">
               <span className="d-flex align-items-center">
                 <i className="bi-discord me-2"></i>
                 <span className="small">Discord</span>
