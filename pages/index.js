@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import bootstrap from 'bootstrap/dist/css/bootstrap.css'
 import hero from '../public/assets/img/unicorn-hero.png'
 import headsLeft from '../public/assets/img/heads-left.png'
+import social from '../public/assets/img/social.png'
 
 export default function Home() {
   return (
@@ -11,9 +12,9 @@ export default function Home() {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="YOUnicorns" />
+        <meta name="description" content="YOUnicorns - We're all unicorns, including YOU" />
         <meta name="author" content="YOUnicorns.xyz" />
-        <title>YOUnicorns</title>
+        <title>YOUnicorns - A Unicorn NFT Project</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -21,6 +22,17 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <link href="assets/style.css" rel="stylesheet" />
+        <meta property="og:url" content="https://www.younicorns.xyz/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="YOUnicorns - A Unicorn NFT Project" />
+        <meta property="og:description" content="YOUnicorns - We're all unicorns, including you" />
+        <meta property="og:image" content={social} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="younicorns.xyz" />
+        <meta property="twitter:url" content="https://www.younicorns.xyz/" />
+        <meta name="twitter:title" content="YOUnicorns - A Unicorn NFT Project" />
+        <meta name="twitter:description" content="YOUnicorns - We're all unicorns, including you" />
+        <meta name="twitter:image" content={social} />
       </Head>
 
       <main className={styles.main}>
