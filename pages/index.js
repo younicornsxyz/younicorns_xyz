@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import bootstrap from 'bootstrap/dist/css/bootstrap.css'
+import hero from '../public/assets/img/unicorn-hero.png'
+import headsLeft from '../public/assets/img/heads-left.png'
 
 export default function Home() {
   return (
@@ -151,7 +153,7 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <aside aside aside aside className="text-center bg-gradient-primary-to-secondary">
+        <aside className="text-center bg-gradient-primary-to-secondary">
           <div className="container px-5">
             <div className="row gx-5 justify-content-center">
               <div className="col-xl-8">
@@ -168,13 +170,13 @@ export default function Home() {
               <div className="col-12 col-lg-5">
                 <h2 className="display-4 lh-1 mb-4">Be a unicorn in a field full of horses</h2>
                 <p className="lead fw-normal text-muted mb-5 mb-lg-2">YOUnicorns is an NFT project that tries to thank the crypto community for being involved in the space this early, supporting it to eventually reach the masses and change the world for good.</p>
-                <p className="lead fw-normal text-muted mb-5 mb-lg-2">This is not an easy job to do, and it's becoming clearer with government bodies banning the use of cryptocurrencies.</p>
+                <p className="lead fw-normal text-muted mb-5 mb-lg-2">This is not an easy job to do, and it is becoming clearer with government bodies banning the use of cryptocurrencies.</p>
                 <p className="lead fw-normal text-muted mb-5 mb-lg-2">It takes strength, courage, and much more to stay around and support this sector, like unicorns. This is why we think you are a unicorn, YOUnicorn.</p>
                 <p className="lead fw-normal text-muted mb-5 mb-lg-2">And this project makes it a fact by holding an YOUnicorn NFT on a blockchain to prove that.</p>
                 <p className="lead fw-normal text-muted mb-5 mb-lg-2">Years from now, you can show that you were one of the few people in the world who cared and worked for the betterment of this world.</p>
               </div>
               <div className="col-sm-8 col-md-6">
-                <div className="px-5 px-sm-0"><Image className="Image-fluid" src="assets/Image/unicorn-hero.png" alt="..." /></div>
+                <div className="px-5 px-sm-0"><Image className="Image-fluid" src={hero} alt="..." layout="responsive" /></div>
               </div>
             </div>
           </div>
@@ -211,7 +213,7 @@ export default function Home() {
                       <div className="text-center">
                         <i className="bi-bell icon-feature text-gradient d-block mb-3"></i>
                         <h3 className="font-alt">Notifications</h3>
-                        <p className="text-muted mb-0">Like knowledge, we are aware of all the new and upcoming Crypto projects and trends that we'll share with YOUnicorns.</p>
+                        <p className="text-muted mb-0">Like knowledge, we are aware of all the new and upcoming Crypto projects and trends that we will share with YOUnicorns.</p>
                       </div>
                     </div>
                     <div className="col-md-6">
@@ -238,7 +240,7 @@ export default function Home() {
                     <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg>
                   <div className="device-wrapper">
                     <div>
-                      <Image src="assets/Image/heads-left.png" />
+                      <Image src={headsLeft} layout="responsive" alt="..." />
                     </div>
                   </div>
                 </div>
@@ -246,7 +248,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section section section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/Image/banner.png);" }}>
+        <section section section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/img/banner.png);" }}>
           <div className="cta-content">
             <div className="container px-5">
               <h6 className="display-6 lh-1 mb-4" id="whitelist">
