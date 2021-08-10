@@ -148,10 +148,10 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div >
-          </div >
-        </header >
-        <aside aside aside aside className="text-center bg-gradient-primary-to-secondary" >
+            </div>
+          </div>
+        </header>
+        <aside aside aside aside className="text-center bg-gradient-primary-to-secondary">
           <div className="container px-5">
             <div className="row gx-5 justify-content-center">
               <div className="col-xl-8">
@@ -162,7 +162,7 @@ export default function Home() {
             </div>
           </div>
         </aside>
-        <section section section className="bg-light" >
+        <section section section className="bg-light">
           <div className="container px-5">
             <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
               <div className="col-12 col-lg-5">
@@ -174,18 +174,18 @@ export default function Home() {
                 <p className="lead fw-normal text-muted mb-5 mb-lg-2">Years from now, you can show that you were one of the few people in the world who cared and worked for the betterment of this world.</p>
               </div>
               <div className="col-sm-8 col-md-6">
-                <div className="px-5 px-sm-0"><img className="img-fluid" src="assets/img/unicorn-hero.png" alt="..." /></div>
+                <div className="px-5 px-sm-0"><Image className="Image-fluid" src="assets/Image/unicorn-hero.png" alt="..." /></div>
               </div>
             </div>
           </div>
-        </section >
-        <section section section className="bg-gradient-secondary-to-primary" id="download" >
+        </section>
+        <section section section className="bg-gradient-secondary-to-primary" id="download">
           <div className="container px-5 sale-details">
             <h2 className="text-center text-white font-alt mb-0">2200 YOUnicorns</h2><h2 className="text-center text-white font-alt mb-0">0.05 ETH</h2>
             <h2 className="text-center text-white font-alt mb-0">20 MAX BUYS AT A TIME</h2>
           </div>
-        </section >
-        <section section section id="features" >
+        </section>
+        <section section section id="features">
           <div className="container px-5">
             <div className="row gx-5 align-items-center">
               <div className="col-lg-8 order-lg-1 mb-5 mb-lg-0">
@@ -238,15 +238,15 @@ export default function Home() {
                     <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg>
                   <div className="device-wrapper">
                     <div>
-                      <img src="assets/img/heads-left.png" />
+                      <Image src="assets/Image/heads-left.png" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section >
-        <section section section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/img/banner.png);" }}>
+        </section>
+        <section section section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/Image/banner.png);" }}>
           <div className="cta-content">
             <div className="container px-5">
               <h6 className="display-6 lh-1 mb-4" id="whitelist">
@@ -256,13 +256,13 @@ export default function Home() {
               <a className="btn-rounded-no-fill py-3 px-4 mntwht hover" href="http://eepurl.com/hFJBXj" target="_blank">Whitelist</a>
             </div>
           </div>
-        </section >
-        <section section section className="bg-gradient-primary-to-secondary" id="download" >
+        </section>
+        <section section section className="bg-gradient-primary-to-secondary" id="download">
           <div className="container px-5">
             <h2 className="text-center text-white font-alt mb-0">Sale starts very soon. Stay tuned.</h2>
           </div>
-        </section >
-      </main >
+        </section>
+      </main>
 
       <footer className={styles.footer} style={{ borderTop: "1px solid #dfdfdf" }}>
         <div className="container px-5 foot-cont">
@@ -287,6 +287,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-    </div >
+    </div>
   )
 }
