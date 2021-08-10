@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import bootstrap from 'bootstrap/dist/css/bootstrap.css'
 import hero from '../public/assets/img/unicorn-hero.png'
 import headsLeft from '../public/assets/img/heads-left.png'
 
