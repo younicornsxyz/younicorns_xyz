@@ -130,12 +130,10 @@ export default function Home() {
             </div>
           </div>
         </nav>
-        {/* <!-- Mashead header--> */}
         <header className="masthead">
           <div className="container px-5">
             <div className="row gx-5 align-items-center">
               <div className="col-lg-6">
-                {/* <!-- Mashead text and app badges--> */}
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
                   <h1 className="display-1 lh-1 mb-3">We are all unicorns, including YOU.</h1>
                   <p className="lead fw-normal text-muted mb-5">Like unicorns, we all are amazing creatures to be supporting this amazing industry, Crypto. It takes miracles and will to continue to change this world for good - and we are all doing that.</p>
@@ -194,7 +192,6 @@ export default function Home() {
                 <div className="container-fluid px-5">
                   <div className="row gx-5">
                     <div className="col-md-6 mb-5">
-                      {/* <!-- Feature item--> */}
                       <div className="text-center">
                         <i className="bi-gift icon-feature text-gradient d-block mb-3"></i>
                         <h3 className="font-alt">Airdrops</h3>
@@ -202,7 +199,6 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="col-md-6 mb-5">
-                      {/* <!-- Feature item--> */}
                       <div className="text-center">
                         <i className="bi-file-earmark-binary icon-feature text-gradient d-block mb-3"></i>
                         <h3 className="font-alt">Alpha</h3>
@@ -212,7 +208,6 @@ export default function Home() {
                   </div>
                   <div className="row">
                     <div className="col-md-6 mb-5 mb-md-0">
-                      {/* <!-- Feature item--> */}
                       <div className="text-center">
                         <i className="bi-bell icon-feature text-gradient d-block mb-3"></i>
                         <h3 className="font-alt">Notifications</h3>
@@ -220,18 +215,16 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      {/* <!-- Feature item--> */}
                       <div className="text-center">
                         <i className="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
                         <h3 className="font-alt">Support</h3>
-                        <p className="text-muted mb-0">Like leaders, we'll help YOUnicorns in all that you do, leading you in the right direction with much-needed support.</p>
+                        <p className="text-muted mb-0">Like leaders, we will help YOUnicorns in all that you do, leading you in the right direction with much-needed support.</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 order-lg-0">
-                {/* <!-- Features section device mockup--> */}
                 <div className="features-device-mockup">
                   <svg className="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                     <defs>
@@ -240,11 +233,9 @@ export default function Home() {
                         <stop className="gradient-end-color" offset="100%"></stop>
                       </linearGradient>
                     </defs>
-                    <circle cx="50" cy="50" r="50"></circle></svg
-                  ><svg className="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="50"></circle></svg><svg className="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
                     <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                    <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
-                  >
+                    <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg>
                   <div className="device-wrapper">
                     <div>
                       <img src="assets/img/heads-left.png" />
@@ -255,12 +246,11 @@ export default function Home() {
             </div>
           </div>
         </section >
-        {/* <!-- Call to action section--> */}
         <section section section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/img/banner.png);" }}>
           <div className="cta-content">
             <div className="container px-5">
               <h6 className="display-6 lh-1 mb-4" id="whitelist">
-                Whitelist here and we'll send you a link to sale 5 minutes before it actually happens publicly.
+                Whitelist here and we will send you a link to sale 5 minutes before it actually happens publicly.
                 <br />
               </h6>
               <a className="btn-rounded-no-fill py-3 px-4 mntwht hover" href="http://eepurl.com/hFJBXj" target="_blank">Whitelist</a>
