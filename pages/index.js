@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="YOUnicorns - We're all unicorns, including YOU" />
+        <meta name="description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
         <meta name="author" content="YOUnicorns.xyz" />
         <title>YOUnicorns - A Unicorn NFT Project</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -24,14 +24,14 @@ export default function Home() {
         <meta property="og:url" content="https://www.younicorns.xyz/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="YOUnicorns - A Unicorn NFT Project" />
-        <meta property="og:description" content="YOUnicorns - We're all unicorns, including you" />
-        <meta property="og:image" content="assets/img/social.png" />
+        <meta property="og:description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
+        <meta property="og:image" content="https://www.younicorns.xyz/assets/img/social.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="younicorns.xyz" />
         <meta property="twitter:url" content="https://www.younicorns.xyz/" />
         <meta name="twitter:title" content="YOUnicorns - A Unicorn NFT Project" />
-        <meta name="twitter:description" content="YOUnicorns - We're all unicorns, including you" />
-        <meta name="twitter:image" content="assets/img/social.png" />
+        <meta name="twitter:description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
+        <meta name="twitter:image" content="https://www.younicorns.xyz/assets/img/social.png" />
       </Head>
 
       <main className={styles.main}>
