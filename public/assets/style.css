@@ -11672,11 +11672,13 @@ section.whitelist {
 }
 
 @media (max-width: 768px){
+  .features-device-mockup {
+      display: none;
+  }
   .foot-cont {
     flex-direction: column;
       align-items: center;
   }
-
   .foot-cont .disclaimer {
       margin: 18px 0;
   }
@@ -11700,12 +11702,13 @@ section.whitelist {
       justify-content: space-between;
       flex-direction: column;
   }
-
   .sale-details h2 {
       margin-bottom: 20px !important;
   }
-
   .sale-details h2:last-Child {
       margin-bottom: 0 !important;
+  }
+  .col-lg-8.order-lg-1.mb-5.mb-lg-0.features-div {
+      margin: 0 !important;
   }
 }
