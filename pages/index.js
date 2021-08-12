@@ -191,7 +191,7 @@ export default function Home() {
         </section>
         <section className="bg-gradient-primary-to-secondary" id="download">
           <div className="container px-5">
-            <h2 className="text-center text-white font-alt mb-0">Sale starts very soon. Stay tuned.</h2>
+            <h2 className="text-center text-white font-alt mb-0">Sale will go live on August 15, 2021 at 12PM EST.</h2>
           </div>
         </section>
       </main>
