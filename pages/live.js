@@ -167,7 +167,7 @@ export default function Mint() {
               <div className="col-lg-6">
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
                   <h1 className="display-1 lh-1 mb-3">Adopt these cute little unicorns</h1>
-                  <p className="lead fw-normal text-muted mb-4">It's time we all get ourselves some unicorns that will both mark our presence in Crypto this early and help us get airdrops, research, alerts, resources, and more.</p>
+                  <p className="lead fw-normal text-muted mb-4">It is time we all get ourselves some unicorns that will both mark our presence in Crypto this early and help us get airdrops, research, alerts, resources, and more.</p>
                   <p className="lead fw-normal mb-4" style={{ fontWeight: "bold !important" }}>Max number of YOUnicorns you can mint is 20. Going over will cause the transaction to fail.</p>
                   <div className="mint">
                     {!signedIn ? <button onClick={signIn} className="btn px-3 hover wallet" style={{ fontWeight: "bold" }}>Connect Wallet with MetaMask</button>
