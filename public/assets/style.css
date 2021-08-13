@@ -11671,6 +11671,41 @@ section.whitelist {
   border-top: 1px solid #dfdfdf;
 }
 
+.wallet {
+  background: #FFE3E3 !important;
+  margin-bottom: 20px !important;
+}
+
+.wallet-mint {
+  font-weight: bold !important;
+  margin-bottom: 0 !important; 
+  background: #FFE3E3 !important;
+}
+
+.wallet-not-active {
+  font-weight: bold !important;
+  margin-bottom: 0 !important; 
+  border: 2px solid #FFE3E3 !important;
+  cursor: not-allowed !important;
+}
+
+.mint {
+  border: 2px dashed #FFE3E3;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+input.how-many {
+  margin: 0 12px !important;
+  outline: #FFE3E3;
+  border: 4px solid #FFE3E3;
+}
+
+input.how-many:focus {
+  outline: #FFE3E3;
+  border: 4px solid #FFE3E3;
+}
+
 @media (max-width: 768px){
   .features-device-mockup {
       display: none;
