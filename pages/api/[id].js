@@ -18,11 +18,6 @@ const younicornApi = async (req, res) => {
   const totalYounicorns = 2200;
   if (parseInt(query) < totalYounicorns) {
 
-
-    // CALL CUSTOM TOKEN NAME IN THE CONTRACT
-    const tokenNameCall = await younicornContract.methods.younicornNames(query).call();
-    let tokenName = `#${query}${(tokenNameCall === '') ? "" : ` - ${tokenNameCall}`}`;
-
     const trait = traits[parseInt(query)];
     let hash = null;
 
