@@ -70,7 +70,7 @@ export default function Home() {
                   <h1 className="display-1 lh-1 mb-3">We are all unicorns, including YOU.</h1>
                   <p className="lead fw-normal text-muted mb-5">Like unicorns, we all are amazing creatures to be supporting this amazing industry, Crypto. It takes miracles and will to continue to change this world for good - and we are all doing that.</p>
                   <div className="d-flex flex-column flex-lg-row align-items-center">
-                    <a className="me-lg-3 mb-4 mb-lg-0 mntwht not-active" href="#!" style={{ textDecoration: "none", border: "1px solid transparent" }}><span className="d-flex align-items-center btn-rounded-fill">
+                    <a className="me-lg-3 mb-4 mb-lg-0 mntwht" href="https://www.younicorns.xyz/live" style={{ textDecoration: "none", border: "1px solid transparent" }}><span className="d-flex align-items-center btn-rounded-fill">
                       <i className="bi-check-circle-fill me-2"></i>
                       <span>Mint</span>
                     </span></a>
