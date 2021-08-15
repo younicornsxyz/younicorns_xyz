@@ -53,7 +53,7 @@ export default function Home() {
                   <span className="small">Discord</span>
                 </span>
               </a>
-              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover not-active" href="#">
+              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://www.younicorns.xyz/live">
                 <span className="d-flex align-items-center">
                   <i className="bi-check-circle-fill me-2"></i>
                   <span className="small">Mint</span>
