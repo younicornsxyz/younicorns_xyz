@@ -31,7 +31,7 @@ const younicornApi = async (req, res) => {
 
 
     metadata = {
-      "name": trait["Unicorn"],
+      "name": "YOUnicorn #" + query,
       "description": "Like unicorns, we all are amazing creatures to be supporting this amazing industry, Crypto. It takes miracles and will to continue to change this world for good - and we are all doing that. We are all unicorns, including YOU.",
       "tokenId": parseInt(query),
       "image": 'https://gateway.pinata.cloud/ipfs/' + hash,
