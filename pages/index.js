@@ -74,9 +74,6 @@ export default function Home() {
                       <i className="bi-check-circle-fill me-2"></i>
                       <span>Mint</span>
                     </span></a>
-                    <a className="me-lg-3 mb-4 mb-lg-0 mntwht hover" href="#whitelist" style={{ textDecoration: "none", border: "1px solid transparent" }}><span className="d-flex align-items-center btn-rounded-no-fill">
-                      <span>Whitelist</span>
-                    </span></a>
                   </div>
                 </div>
               </div>
@@ -178,7 +175,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/img/banner.png);" }}>
+        {/* <section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/img/banner.png);" }}>
           <div className="cta-content">
             <div className="container px-5">
               <h6 className="display-6 lh-1 mb-4" id="whitelist">
@@ -188,10 +185,10 @@ export default function Home() {
               <a className="btn-rounded-no-fill py-3 px-4 mntwht hover" href="http://eepurl.com/hFJBXj" target="_blank" rel="noopener noreferrer">Whitelist</a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="bg-gradient-primary-to-secondary" id="download">
           <div className="container px-5">
-            <h2 className="text-center text-white font-alt mb-0">Sale will go live on August 15, 2021 at 12PM EST.</h2>
+            <h2 className="text-center text-white font-alt mb-0">Sale is active <a href="https://www.younicorns.xyz/live">here</a>.</h2>
           </div>
         </section>
       </main>
