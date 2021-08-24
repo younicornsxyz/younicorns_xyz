@@ -41,12 +41,6 @@ export default function Home() {
               <Image src={logo} width="320" height="40" alt="YOUnicorns" />
             </a>
             <div className="link-list">
-              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://twitter.com/younicorns_nfts" target="_blank" rel="noopener noreferrer">
-                <span className="d-flex align-items-center">
-                  <i className="bi-twitter me-2"></i>
-                  <span className="small">Twitter</span>
-                </span>
-              </a>
               <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://discord.gg/d3hYvT3VpV" target="_blank" rel="noopener noreferrer">
                 <span className="d-flex align-items-center">
                   <i className="bi-discord me-2"></i>
@@ -201,12 +195,6 @@ export default function Home() {
             </p>
           </div>
           <div className="link-list">
-            <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://twitter.com/younicorns_nfts" target="_blank" rel="noopener noreferrer">
-              <span className="d-flex align-items-center">
-                <i className="bi-twitter me-2"></i>
-                <span className="small">Twitter</span>
-              </span>
-            </a>
             <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://discord.gg/d3hYvT3VpV" target="_blank" rel="noopener noreferrer">
               <span className="d-flex align-items-center">
                 <i className="bi-discord me-2"></i>
