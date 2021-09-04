@@ -103,7 +103,7 @@ export default function Mint() {
 
     if (younicornContract) {
 
-      if (how_many_quaks <= 20) {
+      if (how_many_younicorns <= 20) {
 
         const price = Number(younicornPrice) * how_many_younicorns
 
