@@ -11716,7 +11716,7 @@ input.how-many:focus {
   transform: translate(-50%, -50%);
   display: none;
   background-color: white;
-  border: 1px solid var(--bs-font);
+  border: 1px solid red;
   border-radius: 12px;
   padding: 2rem;
 }
