@@ -4,10 +4,14 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Web3 from "web3";
 import { useState, useEffect } from 'react';
-
 import { ADDRESS, ABI } from "../config.js"
 
 export default function Mint() {
+
+  async function removeDiv() {
+    var notice = document.getElementById('notice');
+    notice.style.display = "none";
+  }
 
   // FOR WALLET
   const [signedIn, setSignedIn] = useState(false)
@@ -34,6 +38,12 @@ export default function Mint() {
   }, [])
 
   async function signIn() {
+
+    if (typeof window !== "undefined") {
+      var msgBox = document.getElementById('notice-msg');
+      var notice = document.getElementById('notice');
+    }
+
     if (typeof window.web3 !== 'undefined') {
       // Use existing gateway
       window.web3 = new Web3(window.ethereum);
@@ -55,7 +65,9 @@ export default function Mint() {
       })
       .catch(function (error) {
         // Handle error. Likely the user rejected the login
-        console.error(error)
+        // console.error(error)
+        notice.style.display = "flex";
+        msgBox.innerHTML = error.message;
       })
   }
 
@@ -72,7 +84,6 @@ export default function Mint() {
     setYounicornContract(younicornContract)
 
     const salebool = await younicornContract.methods.saleIsActive().call()
-    // console.log("saleisActive" , salebool)
     setSaleStarted(salebool)
 
     const totalSupply = await younicornContract.methods.totalSupply().call()
@@ -84,24 +95,42 @@ export default function Mint() {
   }
 
   async function mintYounicorn(how_many_younicorns) {
+
+    if (typeof window !== "undefined") {
+      var msgBox = document.getElementById('notice-msg');
+      var notice = document.getElementById('notice');
+    }
+
     if (younicornContract) {
 
-      const price = Number(younicornPrice) * how_many_younicorns
+      if (how_many_quaks <= 20) {
 
-      const gasAmount = await younicornContract.methods.mintYounicorn(how_many_younicorns).estimateGas({ from: walletAddress, value: price })
-      console.log("estimated gas", gasAmount)
+        const price = Number(younicornPrice) * how_many_younicorns
 
-      console.log({ from: walletAddress, value: price })
+        const gasAmount = await younicornContract.methods.mintYounicorn(how_many_younicorns).estimateGas({ from: walletAddress, value: price })
+        console.log("estimated gas", gasAmount)
 
-      younicornContract.methods
-        .mintYounicorn(how_many_younicorns)
-        .send({ from: walletAddress, value: price, gas: String(gasAmount) })
-        .on('transactionHash', function (hash) {
-          console.log("transactionHash", hash)
-        })
+        console.log({ from: walletAddress, value: price })
+
+        younicornContract.methods
+          .mintYounicorn(how_many_younicorns)
+          .send({ from: walletAddress, value: price, gas: String(gasAmount) })
+          .on('transactionHash', function (hash) {
+            console.log("transactionHash", hash)
+          })
+          .catch(function (error) {
+            notice.style.display = "flex";
+            msgBox.innerHTML = error.message;
+          });
+
+      } else {
+        notice.style.display = "flex";
+        msgBox.innerHTML = "Max number of Quaks to mint is 20.";
+      }
 
     } else {
-      console.log("Wallet not connected")
+      notice.style.display = "flex";
+      msgBox.innerHTML = "Wallet not connected.";
     }
 
   };
@@ -133,6 +162,12 @@ export default function Mint() {
         <meta name="twitter:description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
         <meta name="twitter:image" content="https://www.younicorns.xyz/assets/img/social.png" />
       </Head>
+      <div className="notice" id="notice">
+        <div className="msg-div">
+          <p id="notice-msg">Error/ msg.</p>
+          <span className="close" id="close" onClick={removeDiv}><i className="bi-x-circle"></i></span>
+        </div>
+      </div>
       <main className={styles.main}>
         <nav className="navbar navbar - expand - lg navbar - light fixed - top - sm" id="mainNav">
           <div className="container px-5 head-cont">
