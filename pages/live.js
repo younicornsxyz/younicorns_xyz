@@ -125,7 +125,7 @@ export default function Mint() {
 
       } else {
         notice.style.display = "flex";
-        msgBox.innerHTML = "Max number of Quaks to mint is 20.";
+        msgBox.innerHTML = "Max number of YOUnicorns to mint is 20.";
       }
 
     } else {
