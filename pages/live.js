@@ -114,7 +114,7 @@ export default function Mint() {
 
         younicornContract.methods
           .mintYounicorn(how_many_younicorns)
-          .send({ from: walletAddress, value: price, gas: String(gasAmount) })
+          .send({ from: walletAddress, value: price, gas: String(gasAmount), type: '0x2' })
           .on('transactionHash', function (hash) {
             console.log("transactionHash", hash)
           })
