@@ -114,7 +114,15 @@ export default function Mint() {
 
         younicornContract.methods
           .mintYounicorn(how_many_younicorns)
+          .catch(function (error) {
+            notice.style.display = "flex";
+            msgBox.innerHTML = error.message;
+          })
           .send({ from: walletAddress, value: price, gas: String(gasAmount), type: '0x2' })
+          .catch(function (error) {
+            notice.style.display = "flex";
+            msgBox.innerHTML = error.message;
+          })
           .on('transactionHash', function (hash) {
             console.log("transactionHash", hash)
           })
