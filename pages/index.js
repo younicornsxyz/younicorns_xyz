@@ -85,8 +85,8 @@ export default function Home() {
           <div className="content container px-5">
             <div className="recent">
               <h3>Recent projects: </h3>
-              <p>Only after a week or two of the launch, we've given back over $50K to YOUnicorn holders in airdrops and generated revenue.</p>
-              <p>For reference, here's the transaction of the $35K+ revenue share from Quaks project with holders: <span><a href="https://etherscan.io/tx/0xdec7638002b7f108b10fdfb66814c00640bd95a485b0e0c4b9ade42c4424acde">https://etherscan.io/tx/0xdec7638002b7f108b10fdfb66814c00640bd95a485b0e0c4b9ade42c4424acde</a></span></p>
+              <p>Only after a week or two of the launch, we&apos;ve given back over $50K to YOUnicorn holders in airdrops and generated revenue.</p>
+              <p>For reference, here&apos;s the transaction of the $35K+ revenue share from Quaks project with holders: <span><a href="https://etherscan.io/tx/0xdec7638002b7f108b10fdfb66814c00640bd95a485b0e0c4b9ade42c4424acde">https://etherscan.io/tx/0xdec7638002b7f108b10fdfb66814c00640bd95a485b0e0c4b9ade42c4424acde</a></span></p>
             </div>
             <div className="projects">
               <a href="https://www.quaks.xyz" rel="nofollow noreferrer" target="_blank">
