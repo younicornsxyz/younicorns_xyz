@@ -140,7 +140,7 @@ export default function Mint() {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
+        <meta name="description" content="YOUnicorns is a DAO-like NFT project that shares airdrops, resources, research, generated fee or revenue of built projects with holders, and more." />
         <meta name="author" content="YOUnicorns.xyz" />
         <title>YOUnicorns sale is on</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -153,13 +153,13 @@ export default function Mint() {
         <meta property="og:url" content="https://www.younicorns.xyz/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="YOUnicorns sale is on" />
-        <meta property="og:description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
+        <meta property="og:description" content="YOUnicorns is a DAO-like NFT project that shares airdrops, resources, research, generated fee or revenue of built projects with holders, and more." />
         <meta property="og:image" content="https://www.younicorns.xyz/assets/img/social.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="younicorns.xyz" />
         <meta property="twitter:url" content="https://www.younicorns.xyz/" />
         <meta name="twitter:title" content="YOUnicorns sale is on" />
-        <meta name="twitter:description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
+        <meta name="twitter:description" content="YOUnicorns is a DAO-like NFT project that shares airdrops, resources, research, generated fee or revenue of built projects with holders, and more." />
         <meta name="twitter:image" content="https://www.younicorns.xyz/assets/img/social.png" />
       </Head>
       <div className="notice" id="notice">
@@ -181,6 +181,12 @@ export default function Mint() {
                   <span className="small">Discord</span>
                 </span>
               </a>
+              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://younicorns-xyz.medium.com/" target="_blank" rel="noopener noreferrer">
+                <span className="d-flex align-items-center">
+                  <i className="bi-megaphone-fill me-2"></i>
+                  <span className="small">Medium</span>
+                </span>
+              </a>
               <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://www.younicorns.xyz/live">
                 <span className="d-flex align-items-center">
                   <i className="bi-check-circle-fill me-2"></i>
@@ -195,8 +201,8 @@ export default function Mint() {
             <div className="row gx-5 align-items-center">
               <div className="col-lg-6">
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
-                  <h1 className="display-1 lh-1 mb-3">Adopt these cute little unicorns</h1>
-                  <p className="lead fw-normal text-muted mb-4">It is time we all get ourselves some unicorns that will both mark our presence in Crypto this early and help us get airdrops, research, alerts, resources, and more.</p>
+                  <h1 className="display-1 lh-1 mb-3">Get your share in YOUniverse</h1>
+                  <p className="lead fw-normal text-muted mb-4">Get yourself some YOUnicorns and be a part of the YOUniverse to get airdrops, researches, alerts, revenue or fees generated from products built over time, and more.</p>
                   <p className="lead fw-normal mb-4" style={{ fontWeight: "bold !important" }}>Max number of YOUnicorns you can mint is 20. Going over will cause the transaction to fail.</p>
                   <div className="mint">
                     {!signedIn ? <button onClick={signIn} className="btn px-3 hover wallet" style={{ fontWeight: "bold" }}>Connect Wallet with MetaMask</button>
@@ -242,7 +248,7 @@ export default function Mint() {
         <div className="container px-5 foot-cont">
           <div className="disclaimer">
             <p style={{ marginBottom: "0" }}>
-              <span style={{ fontWeight: "bold" }}>Disclaimer:</span> YOUnicorns is not affiliated with Uniswap or any other crypto parties. The project wants to thank every one of you involved with Crypto and helping this sector grow at the much needed pace.
+              <span style={{ fontWeight: "bold" }}>Disclaimer:</span> YOUnicorns is not affiliated with Uniswap or any other crypto parties.
             </p>
           </div>
           <div className="link-list">
@@ -250,6 +256,12 @@ export default function Mint() {
               <span className="d-flex align-items-center">
                 <i className="bi-discord me-2"></i>
                 <span className="small">Discord</span>
+              </span>
+            </a>
+            <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://younicorns-xyz.medium.com/" target="_blank" rel="noopener noreferrer">
+              <span className="d-flex align-items-center">
+                <i className="bi-megaphone-fill me-2"></i>
+                <span className="small">Medium</span>
               </span>
             </a>
           </div>
