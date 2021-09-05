@@ -181,10 +181,10 @@ export default function Mint() {
                   <span className="small">Discord</span>
                 </span>
               </a>
-              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://younicorns-xyz.medium.com/" target="_blank" rel="noopener noreferrer">
+              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://twitter.com/younicorns_xyz" target="_blank" rel="noopener noreferrer">
                 <span className="d-flex align-items-center">
-                  <i className="bi-megaphone-fill me-2"></i>
-                  <span className="small">Medium</span>
+                  <i className="bi-twitter me-2"></i>
+                  <span className="small">Twitter</span>
                 </span>
               </a>
               <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://www.younicorns.xyz/live">
@@ -258,10 +258,10 @@ export default function Mint() {
                 <span className="small">Discord</span>
               </span>
             </a>
-            <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://younicorns-xyz.medium.com/" target="_blank" rel="noopener noreferrer">
+            <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://twitter.com/younicorns_xyz" target="_blank" rel="noopener noreferrer">
               <span className="d-flex align-items-center">
-                <i className="bi-megaphone-fill me-2"></i>
-                <span className="small">Medium</span>
+                <i className="bi-twitter me-2"></i>
+                <span className="small">Twitter</span>
               </span>
             </a>
           </div>
