@@ -256,10 +256,67 @@ pre {
   overflow: auto;
   font-size: 0.875em;
 }
+
 pre code {
   font-size: inherit;
   color: inherit;
   word-break: normal;
+}
+
+.quaks .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quaks .content .recent {
+  flex: 1;
+}
+
+.quaks .content .projects {
+  flex: 2;
+  display: flex;
+  justify-content: end;
+}
+
+.project {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #dfdfdf;
+  border-radius: 20px;
+  width: 340px;
+  background: white;
+}
+
+.btn-f {
+  align-items: start;
+}
+
+.sale-details {
+  flex-direction: column;
+  text-align: left !important;
+  align-items: baseline;
+}
+
+.sale div {
+  display: flex;
+}
+
+p.p-desc {
+  margin: 0;
+}
+
+.recent a {
+  text-decoration: underline !important;
+  word-break: break-word;
+}
+
+.project img {
+  border-radius: 12px;
+}
+
+p.p-title {
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 code {
@@ -11740,9 +11797,35 @@ span.close {
   cursor: pointer;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1024px) {
   .features-device-mockup {
-      display: none;
+    display: none;
+  }
+  .sale div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-f {
+      align-items: center !important;
+      margin-top: 20px;
+  }
+  .btn-f a {
+      margin: 0 !important;
+  }
+}
+
+@media (max-width: 768px){
+  .project {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
+  .quaks .content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
   .foot-cont {
     flex-direction: column;
