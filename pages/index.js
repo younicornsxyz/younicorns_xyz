@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import logo from '../public/assets/img/logo.png'
 import hero from '../public/assets/img/unicorn-hero.png'
+import quak from '../public/assets/img/quak.png'
 import headsLeft from '../public/assets/img/heads-left.png'
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
+        <meta name="description" content="YOUnicorns is a DAO-like NFT project that shares airdrops, resources, research, generated fee or revenue of built projects with holders, and more." />
         <meta name="author" content="YOUnicorns.xyz" />
         <title>YOUnicorns - A Unicorn NFT Project</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -24,13 +25,13 @@ export default function Home() {
         <meta property="og:url" content="https://www.younicorns.xyz/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="YOUnicorns - A Unicorn NFT Project" />
-        <meta property="og:description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
+        <meta property="og:description" content="YOUnicorns is a DAO-like NFT project that shares airdrops, resources, research, generated fee or revenue of built projects with holders, and more." />
         <meta property="og:image" content="https://www.younicorns.xyz/assets/img/social.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="younicorns.xyz" />
         <meta property="twitter:url" content="https://www.younicorns.xyz/" />
         <meta name="twitter:title" content="YOUnicorns - A Unicorn NFT Project" />
-        <meta name="twitter:description" content="We are all unicorns, including YOU - to be supporting Crypto this early. We can prove that with the help of Blockchain and NFTs for years to come." />
+        <meta name="twitter:description" content="YOUnicorns is a DAO-like NFT project that shares airdrops, resources, research, generated fee or revenue of built projects with holders, and more." />
         <meta name="twitter:image" content="https://www.younicorns.xyz/assets/img/social.png" />
       </Head>
 
@@ -45,6 +46,12 @@ export default function Home() {
                 <span className="d-flex align-items-center">
                   <i className="bi-discord me-2"></i>
                   <span className="small">Discord</span>
+                </span>
+              </a>
+              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://younicorns-xyz.medium.com/" target="_blank" rel="noopener noreferrer">
+                <span className="d-flex align-items-center">
+                  <i className="bi-megaphone-fill me-2"></i>
+                  <span className="small">Medium</span>
                 </span>
               </a>
               <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://www.younicorns.xyz/live">
@@ -62,7 +69,7 @@ export default function Home() {
               <div className="col-lg-6">
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
                   <h1 className="display-1 lh-1 mb-3">We are all unicorns, including YOU.</h1>
-                  <p className="lead fw-normal text-muted mb-5">Like unicorns, we all are amazing creatures to be supporting this amazing industry, Crypto. It takes miracles and will to continue to change this world for good - and we are all doing that.</p>
+                  <p className="lead fw-normal text-muted mb-5">YOUnicorns is a DAO-like NFT project that shares airdrops, resources, research, generated fee or revenue of built projects with holders, and more.</p>
                   <div className="d-flex flex-column flex-lg-row align-items-center">
                     <a className="me-lg-3 mb-4 mb-lg-0 mntwht" href="https://www.younicorns.xyz/live" style={{ textDecoration: "none", border: "1px solid transparent" }}><span className="d-flex align-items-center btn-rounded-fill">
                       <i className="bi-check-circle-fill me-2"></i>
@@ -74,6 +81,29 @@ export default function Home() {
             </div>
           </div>
         </header>
+        <section className="quaks bg-light">
+          <div className="content container px-5">
+            <div className="recent">
+              <h3>Recent projects: </h3>
+              <p>Only after a week or two of the launch, we've given back over $50K to YOUnicorn holders in airdrops and generated revenue.</p>
+              <p>For reference, here's the transaction of the $35K+ revenue share from Quaks project with holders: <span><a href="https://etherscan.io/tx/0xdec7638002b7f108b10fdfb66814c00640bd95a485b0e0c4b9ade42c4424acde">https://etherscan.io/tx/0xdec7638002b7f108b10fdfb66814c00640bd95a485b0e0c4b9ade42c4424acde</a></span></p>
+            </div>
+            <div className="projects">
+              <a href="https://www.quaks.xyz" rel="nofollow noreferrer" target="_blank">
+                <div className="project">
+                  <Image className="quak-img" src={quak} layout="responsive" alt="Quaks" />
+                  <div className="project-details">
+                    <p className="p-title">Quaks</p>
+                    <p className="p-desc">Quaks is a collection of 6,000 beautiful ducks with proof of ownership on the Ethereum blockchain.</p>
+                    <div className="project-socials">
+
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
         <aside className="text-center bg-gradient-primary-to-secondary">
           <div className="container px-5">
             <div className="row gx-5 justify-content-center">
@@ -85,29 +115,6 @@ export default function Home() {
             </div>
           </div>
         </aside>
-        <section className="bg-light">
-          <div className="container px-5">
-            <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-              <div className="col-12 col-lg-5">
-                <h2 className="display-4 lh-1 mb-4">Be a unicorn in a field full of horses</h2>
-                <p className="lead fw-normal text-muted mb-4">YOUnicorns is an NFT project that tries to thank the crypto community for being involved in the space this early, supporting it to eventually reach the masses and change the world for good.</p>
-                <p className="lead fw-normal text-muted mb-4">This is not an easy job to do, and it is becoming clearer with government bodies banning the use of cryptocurrencies.</p>
-                <p className="lead fw-normal text-muted mb-4">It takes strength, courage, and much more to stay around and support this sector, like unicorns. This is why we think you are a unicorn, YOUnicorn.</p>
-                <p className="lead fw-normal text-muted mb-4">And this project makes it a fact by holding an YOUnicorn NFT on a blockchain to prove that.</p>
-                <p className="lead fw-normal text-muted mb-4">Years from now, you can show that you were one of the few people in the world who cared and worked for the betterment of this world.</p>
-              </div>
-              <div className="col-sm-8 col-md-6">
-                <div className="px-5 px-sm-0"><Image className="Image-fluid" src={hero} alt="We are all unicorns, including you." layout="responsive" /></div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="bg-gradient-secondary-to-primary" id="download">
-          <div className="container px-5 sale-details">
-            <h2 className="text-center text-white font-alt mb-0">2200 YOUnicorns</h2><h2 className="text-center text-white font-alt mb-0">0.05 ETH</h2>
-            <h2 className="text-center text-white font-alt mb-0">20 MAX BUYS AT A TIME</h2>
-          </div>
-        </section>
         <section id="features">
           <div className="container px-5">
             <div className="row gx-5 align-items-center">
@@ -117,8 +124,8 @@ export default function Home() {
                     <div className="col-md-6 mb-5">
                       <div className="text-center">
                         <i className="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                        <h3 className="font-alt">Airdrops</h3>
-                        <p className="text-muted mb-0">Like magic, we will airdrop tokens and NFTs of our future projects to all YOUnicorns.</p>
+                        <h3 className="font-alt">Airdrops and Revenue</h3>
+                        <p className="text-muted mb-0">Like magic, we will airdrop tokens and NFTs of our future projects to all YOUnicorns, and will share the revene generated of those projects with holders.</p>
                       </div>
                     </div>
                     <div className="col-md-6 mb-5">
@@ -169,20 +176,18 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <section className="whitelist" style={{ background: "linear-gradient(rgb(255 255 255), rgb(255 255 255 / 67%)), url(assets/img/banner.png);" }}>
-          <div className="cta-content">
-            <div className="container px-5">
-              <h6 className="display-6 lh-1 mb-4" id="whitelist">
-                Whitelist here and we will send you a link to sale 5 minutes before it actually happens publicly.
-                <br />
-              </h6>
-              <a className="btn-rounded-no-fill py-3 px-4 mntwht hover" href="http://eepurl.com/hFJBXj" target="_blank" rel="noopener noreferrer">Whitelist</a>
+        <section className="bg-white sale" id="download" style={{ borderTop: "1px solid #dfdfdf" }}>
+          <div className="container">
+            <div className="container px-5 sale-details">
+              <h2 className="text-center font-alt mb-0">2200 YOUnicorns</h2><h2 className="text-center font-alt mb-0">0.05 ETH</h2>
+              <h2 className="text-center font-alt mb-0">20 MAX BUYS AT A TIME</h2>
             </div>
-          </div>
-        </section> */}
-        <section className="bg-gradient-primary-to-secondary" id="download">
-          <div className="container px-5">
-            <h2 className="text-center text-white font-alt mb-0">Sale is active <a href="https://www.younicorns.xyz/live">here</a>.</h2>
+            <div className="btn-f container d-flex flex-column flex-lg-row justify-content-end">
+              <a className="me-lg-3 mb-4 mb-lg-0 mntwht" href="https://www.younicorns.xyz/live" style={{ textDecoration: "none", border: "1px solid transparent" }}><span className="d-flex align-items-center btn-rounded-fill">
+                <i className="bi-check-circle-fill me-2"></i>
+                <span>Mint</span>
+              </span></a>
+            </div>
           </div>
         </section>
       </main>
@@ -191,7 +196,7 @@ export default function Home() {
         <div className="container px-5 foot-cont">
           <div className="disclaimer">
             <p style={{ marginBottom: "0" }}>
-              <span style={{ fontWeight: "bold" }}>Disclaimer:</span> YOUnicorns is not affiliated with Uniswap or any other crypto parties. The project wants to thank every one of you involved with Crypto and helping this sector grow at the much needed pace.
+              <span style={{ fontWeight: "bold" }}>Disclaimer:</span> YOUnicorns is not affiliated with Uniswap or any other crypto parties.
             </p>
           </div>
           <div className="link-list">
@@ -199,6 +204,12 @@ export default function Home() {
               <span className="d-flex align-items-center">
                 <i className="bi-discord me-2"></i>
                 <span className="small">Discord</span>
+              </span>
+            </a>
+            <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://younicorns-xyz.medium.com/" target="_blank" rel="noopener noreferrer">
+              <span className="d-flex align-items-center">
+                <i className="bi-megaphone-fill me-2"></i>
+                <span className="small">Medium</span>
               </span>
             </a>
           </div>
