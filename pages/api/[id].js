@@ -19,13 +19,13 @@ const younicornApi = async (req, res) => {
   if (parseInt(query) < totalYounicorns) {
 
     const trait = traits[parseInt(query)];
-    let hash = null;
+    // let hash = null;
 
-    for (const [key, value] of Object.entries(hashes)) {
-      if (value == query) {
-        hash = key;
-      }
-    }
+    // for (const [key, value] of Object.entries(hashes)) {
+    //   if (value == query) {
+    //     hash = key;
+    //   }
+    // }
 
     let metadata = {}
 
@@ -34,7 +34,7 @@ const younicornApi = async (req, res) => {
       "name": "YOUnicorn #" + query,
       "description": "Like unicorns, we all are amazing creatures to be supporting this amazing industry, Crypto. It takes miracles and will to continue to change this world for good - and we are all doing that. We are all unicorns, including YOU.",
       "tokenId": parseInt(query),
-      "image": 'https://gateway.pinata.cloud/ipfs/' + hash,
+      "image": 'https://gateway.pinata.cloud/ipfs/' + hashes[query],
       "external_url": "https://www.younicorns.xyz",
       "attributes": [
         {
