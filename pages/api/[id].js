@@ -32,7 +32,7 @@ const younicornApi = async (req, res) => {
 
     metadata = {
       "name": "YOUnicorn #" + query,
-      "description": "Like unicorns, we all are amazing creatures to be supporting this amazing industry, Crypto. It takes miracles and will to continue to change this world for good - and we are all doing that. We are all unicorns, including YOU.",
+      "description": "YOUnicorns is a DAO-like NFT project that shares airdrops, resources, research, generated fee or revenue of built projects with holders, and more.",
       "tokenId": parseInt(query),
       "image": 'https://gateway.pinata.cloud/ipfs/' + hashes[query],
       "external_url": "https://www.younicorns.xyz",
