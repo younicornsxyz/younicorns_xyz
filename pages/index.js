@@ -54,12 +54,12 @@ export default function Home() {
                   <span className="small">Twitter</span>
                 </span>
               </a>
-              <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://www.younicorns.xyz/live">
+              {/* <a className="btn rounded-pill px-3 mb-2 mb-lg-0 hover" href="https://www.younicorns.xyz/live">
                 <span className="d-flex align-items-center">
                   <i className="bi-check-circle-fill me-2"></i>
                   <span className="small">Mint</span>
                 </span>
-              </a>
+              </a> */}
             </div>
           </div>
         </nav>
@@ -70,12 +70,12 @@ export default function Home() {
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
                   <h1 className="display-1 lh-1 mb-3">We are all unicorns, including YOU.</h1>
                   <p className="lead fw-normal text-muted mb-5">YOUnicorns is a DAO-like NFT project that shares airdrops, resources, research, generated fee or revenue of built projects with holders, and more.</p>
-                  <div className="d-flex flex-column flex-lg-row align-items-center">
+                  {/* <div className="d-flex flex-column flex-lg-row align-items-center">
                     <a className="me-lg-3 mb-4 mb-lg-0 mntwht" href="https://www.younicorns.xyz/live" style={{ textDecoration: "none", border: "1px solid transparent" }}><span className="d-flex align-items-center btn-rounded-fill">
                       <i className="bi-check-circle-fill me-2"></i>
                       <span>Mint</span>
                     </span></a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -176,7 +176,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-white sale" id="download" style={{ borderTop: "1px solid #dfdfdf" }}>
+        {/* <section className="bg-white sale" id="download" style={{ borderTop: "1px solid #dfdfdf" }}>
           <div className="container">
             <div className="container px-5 sale-details">
               <h2 className="text-center font-alt mb-0">2200 YOUnicorns</h2><h2 className="text-center font-alt mb-0">0.05 ETH</h2>
@@ -189,7 +189,7 @@ export default function Home() {
               </span></a>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer className={styles.footer} style={{ borderTop: "1px solid #dfdfdf" }}>
